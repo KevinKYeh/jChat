@@ -75,7 +75,7 @@ Chat = {
         cheers: {},
         lines: [],
         blockedUsers: ('block' in $.QueryString ? $.QueryString.block.toLowerCase().split(',') : false),
-        bots: ['streamelements', 'streamlabs', 'nightbot', 'moobot', 'fossabot'],
+        bots: ['streamelements', 'streamlabs', 'nightbot', 'moobot', 'fossabot', 'kyaybot'],
         nicknameColor: ('cN' in $.QueryString ? $.QueryString.cN : false)
     },
 
